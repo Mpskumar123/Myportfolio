@@ -117,7 +117,7 @@ nav li:first-child {
 
 
 nav {
-    background: #86d4b8; 
+    background: #076369; 
     color: #fff;
     padding: 30px; 
     text-align: center;
@@ -557,56 +557,79 @@ section .project ul li {
   text-transform: capitalize;
 }
 
+/* Achievements Section */
+#achievements {
+    background-color: #90d6ca;
+    padding: 50px 0;
+    text-align: center;
+}
 
+#achievements h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+#achievements ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#achievements ul li {
+    font-size: 18px;
+    color: #666;
+    margin: 15px 0;
+}
+
+/* Activities Section */
+#activities {
+    background-color: #f9ecec;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#activities h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+#activities ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#activities ul li {
+    font-size: 18px;
+    color: #666;
+    margin: 15px 0;
+}
+
+/* Education Section */
 #education {
-    margin-top: 40px;
+    background-color: #e6f7ff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#education h2 {
+    font-size: 36px;
+    color: #333;
 }
 
 .education {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .education h3 {
-    font-size: 20px;
+    font-size: 24px;
     color: #666;
-    margin-bottom: 10px;
 }
 
 .education p {
-    font-size: 16px;
+    font-size: 18px;
     color: #666;
-    margin-bottom: 5px;
+    margin: 5px 0;
 }
 
-
-#achievements,
-#activities {
-    margin-top: 40px;
-}
-
-
-#achievements ul,
-#activities ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-#achievements li,
-#activities li {
-    font-size: 16px;
-    color: #666;
-    margin-bottom: 10px;
-}
-
-#achievements li:before,
-#activities li:before {
-    content: "\2022"; 
-    color: #ff6600; 
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-}
-}
 
 .main {
     display: flex;
@@ -634,4 +657,8 @@ section .project ul li {
       text-align: center;
     }
   }
+}
+
+
+  
   
